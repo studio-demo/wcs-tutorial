@@ -1,0 +1,70 @@
+// theme colors
+$white: #FFFFFF;
+$dirty-white: #DCD9BF;
+$snow-white: #F5F5F5;
+$black: #000000;
+$charcoal-black: #282B2D;
+$lavender: #B6C1F0;
+$lilac: #CC6FD6;
+$dark-lavender: #6A55A2;
+$olive-green: #A09D2A;
+$rich-green: #268040;
+$turquoise-green: #92D0AB;
+$aero-blue: #7FC2F4;
+$gold-yellow: #FFB615;
+$dana-pink: #FFD9E0;
+$hot-pink: #F486C9;
+$pastel-pink: #FA9DBC;
+$hot-red: #FF2F2F;
+$orange-red: #FF5B2B;
+$tag-gray: #CCCCCC;
+$tag-blue: #3899EC;
+$tag-purple: #495CEF;
+$tag-white: #FCFCFC;
+$tag-border: rgb(0, 6, 36);
+$symbol-shadow: rgba(56, 54, 68, 0.15);
+
+// font
+$font-family-text: Madefor, sans-serif;
+$font-family-display: MadeforDisplay, sans-serif;
+$font-color: $charcoal-black;
+// box
+$box-border-radius-rounded: 2rem;
+$box-border-radius-circle: 100rem;
+// Lesson
+$lesson-bg-color: $snow-white;
+$lesson-padding: 35px 45px 35px 45px;
+$lesson-gap: 35px;
+// Task
+$task-width: 315px;
+$task-bg-color: $snow-white;
+$task-font-title: normal 800 2.5rem/3.125rem $font-family-display;
+$task-font-progress: normal 400 0.813rem/1rem $font-family-text;
+$task-font-description: normal 400 0.938rem/1.475rem $font-family-text;
+$task-text-align: left;
+// Playground
+$playground-bg-color: $charcoal-black;
+$playground-border-radius: 1.25rem;
+$playground-width: 400px;
+$playground-height: 560px;
+
+:export {
+    white: $white;
+    dirtyWhite: $dirty-white;
+    snowWhite: $snow-white;
+    black: $black;
+    charcoalBlack: $charcoal-black;
+    lavender: $lavender;
+    lilac: $lilac;
+    darkLavender: $dark-lavender;
+    oliveGreen: $olive-green;
+    richGreen: $rich-green;
+    turquoiseGreen: $turquoise-green;
+    aeroBlue: $aero-blue;
+    goldYellow: $gold-yellow;
+    danaPink: $dana-pink;
+    hotPink: $hot-pink;
+    pastelPink: $pastel-pink;
+    hotRed: $hot-red;
+    orangeRed: $orange-red;
+}
