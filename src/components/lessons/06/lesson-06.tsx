@@ -14,12 +14,11 @@ export const Lesson06: React.FC = () => {
     return (
         <div className={styles.root}>
             <Task />
-            <div className={`${styles.playground}`} id="playground">
+            <div className={`${styles.playground} ${styles.bgColor}`} id="playground">
                 <div className={styles.quote}>
                     “Creativity is <span>nothing but a mind set</span> free.”
                 </div>
                 <div className={styles.author}>Torrie T. Asai</div>
-                <ConfettiFx maxParticles={400} dissolve={315} show={lessonSolved} style={{ display: lessonSolved ? 'block' : 'none' }} />
             </div>
         </div>
     );

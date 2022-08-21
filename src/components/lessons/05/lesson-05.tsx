@@ -30,7 +30,6 @@ export const Lesson05: React.FC = () => {
             <Box text="Give me some space" color={"turquoiseGreen"} className={styles.padding} />
           </div>
         </div>
-        <ConfettiFx maxParticles={400} dissolve={315} show={lessonSolved} style={{ display: lessonSolved ? 'block' : 'none'}}/>
       </div>
     </div>
   );

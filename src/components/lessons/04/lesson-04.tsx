@@ -35,7 +35,6 @@ export const Lesson04: React.FC = () => {
             <Image src={img6} className={styles.right} />
           </div>
         </div>
-        <ConfettiFx maxParticles={400} dissolve={315} show={lessonSolved} style={{ display: lessonSolved ? 'block' : 'none'}}/>
       </div>
     </div>
   );

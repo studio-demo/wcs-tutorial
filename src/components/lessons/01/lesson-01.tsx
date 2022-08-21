@@ -43,22 +43,9 @@ export const Lesson01: React.FC = () => {
   return (
     <div className={styles.root}>
       <Task />
-      <div className={styles.playground}>
-        {boxes.map((color, idx) => (
-          <Box
-            key={idx}
-            color={color}
-            className={`${styles.boxes} ${visible[idx] || styles.fadeOut}`}
-            onMouseEnter={() => {
-              const boxesVisibility = [...visible];
-              boxesVisibility[idx] = false;
-              setVisible(boxesVisibility);
-            }}
-          />
-        ))}
+      <div className={styles.playground}>        
         <CursorFx />
-        <ConfettiFx maxParticles={400} dissolve={315} show={visible.every((value) => value === false)}/>
-      </div>
+          </div>
     </div>
   );
 };

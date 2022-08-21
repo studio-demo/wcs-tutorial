@@ -43,7 +43,6 @@ export const Lesson08: React.FC = () => {
             className={styles.tag}
           />
         </div>
-        <ConfettiFx maxParticles={400} dissolve={315} show={lessonSolved} style={{ display: lessonSolved ? 'block' : 'none'}}/>
       </div>
     </div>
   );

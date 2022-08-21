@@ -8,8 +8,7 @@ export const Lesson10: React.FC = () => {
     <div className={styles.root}>
       <Task />
       <div className={styles.playground}>
-        <div className={styles.arcs} />
-        <Cloud className={styles.cloud} />
+        <div className={styles.sparkles} />       
       </div>
     </div>
   );
