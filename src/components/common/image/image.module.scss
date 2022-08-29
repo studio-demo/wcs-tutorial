@@ -1,6 +1,6 @@
 @import '../../../globals/variables.module.scss';
 
-.root{     
+.root {
     font-family: $font-family-text;
 }
 
@@ -16,17 +16,17 @@
     }
     &.center {
         object-position: center;
-    }    
+    }
     &.top {
         object-position: top;
-    }    
+    }
     &.bottom {
         object-position: bottom;
-    }    
-    &.scaleToFill {     
+    }
+    &.scaleToFill {
         object-fit: cover;
-    }    
-    &.scaleToFit {     
+    }
+    &.scaleToFit {
         object-fit: contain;
     }
-}  
+}

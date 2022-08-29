@@ -12,7 +12,7 @@
     .playground {
         overflow: hidden;
         background-color: $playground-bg-color;
-        border-radius: $playground-border-radius;        
+        border-radius: $playground-border-radius;
         width: $playground-width;
         height: $playground-height;
 
@@ -28,7 +28,7 @@
 }
 
 // lesson specific
-.icon{
+.icon {
     border-radius: $box-border-radius-circle;
     padding: 12px;
 }

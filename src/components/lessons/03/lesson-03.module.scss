@@ -30,12 +30,12 @@
     height: 280px;
 
     &.top {
-        background-image: url("https://static.wixstatic.com/shapes/68d3a9_7a8a2a17922542f49ff9d1310625dee1.svg");
+        background-image: url('https://static.wixstatic.com/shapes/68d3a9_7a8a2a17922542f49ff9d1310625dee1.svg');
         background-color: $charcoal-black;
     }
 
     &.bottom {
-        background-image: url("https://static.wixstatic.com/shapes/68d3a9_7a8a2a17922542f49ff9d1310625dee1.svg");
+        background-image: url('https://static.wixstatic.com/shapes/68d3a9_7a8a2a17922542f49ff9d1310625dee1.svg');
         background-color: $gold-yellow;
     }
 }

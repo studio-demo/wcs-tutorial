@@ -1,8 +1,8 @@
 module.exports = {
     /**
-    * Specifies modules to evaluate before rendering any boards in your project.
-    * Refer to https://component-studio.wixanswers.com/en/article/kb14533 for more information.
-    */
+     * Specifies modules to evaluate before rendering any boards in your project.
+     * Refer to https://component-studio.wixanswers.com/en/article/kb14533 for more information.
+     */
     boardGlobalSetup: './src/_wcs/boards-global-setup.ts',
 
     /**
@@ -11,8 +11,14 @@ module.exports = {
      */
 
     componentsDiscovery: {
-        include: ['src/components**'],
-        exclude: ['src/wcs-component-templates/**', 'src/components/common/**', 'src/components/tasks/**', 'src/components/fx/**', 'src/App.tsx'],
+        include: ['src/components/**'],
+        exclude: [
+            'src/wcs-component-templates/**',
+            'src/components/common/**',
+            'src/components/tasks/**',
+            'src/components/fx/**',
+            'src/App.tsx',
+        ],
     },
 
     /**
@@ -28,10 +34,10 @@ module.exports = {
 
     /**
      * Configures the limit of rended instances for a single component onstage.
-     * Refer to https://component-studio.wixanswers.com/en/aarticle/configuring-maximum-rendered-elements for more information.     
+     * Refer to https://component-studio.wixanswers.com/en/aarticle/configuring-maximum-rendered-elements for more information.
      */
     safeRender: {
-        maxInstancesPerComponent: 1000
+        maxInstancesPerComponent: 1000,
     },
 
     /**
@@ -51,5 +57,5 @@ module.exports = {
      * Configures how SVG assets load in WCS.
      * Refer to https://component-studio.wixanswers.com/en/article/kb38231 for more information.
      */
-    svgLoader: "both",
+    svgLoader: 'both',
 };

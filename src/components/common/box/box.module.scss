@@ -1,6 +1,6 @@
 @import '../../../globals/variables.module.scss';
 
-:root {     
+:root {
     font-family: $font-family-text;
     // css variable being used to set the box's background color (color prop)
     --box-color: #eeeeee;
@@ -15,28 +15,28 @@
     min-width: 30px;
     min-height: 30px;
 
-    &.fill{
+    &.fill {
         background: var(--box-color);
     }
-    &.outline{
+    &.outline {
         background: transparent;
         border: 2px solid var(--box-color);
     }
-    &.right{
+    &.right {
         justify-content: flex-end;
     }
-    &.center{
+    &.center {
         justify-content: center;
     }
-    &.left{
+    &.left {
         justify-content: flex-start;
     }
 }
 
-.text{
+.text {
     align-self: center;
-    
-    &.margin{
+
+    &.margin {
         margin-left: 0.75rem;
     }
 }
