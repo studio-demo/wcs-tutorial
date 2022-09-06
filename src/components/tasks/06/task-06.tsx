@@ -26,8 +26,7 @@ export const Task06: React.FC<Task06Props> = (className) => {
                     <TaskSymbol name="edit" />
                     Edit <TaskSymbol name="component" />
                     <b>Lesson06</b> and select <br></br>
-                    <TaskTag type="tree">div.playground.bgColor</TaskTag> on the{' '}
-                    <br />
+                    <TaskTag type="tree">div.playground</TaskTag> on the{' '}
                     <b>Elements Panel.</b>
                 </li>
                 <li>
