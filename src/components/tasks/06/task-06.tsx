@@ -34,7 +34,7 @@ export const Task06: React.FC<Task06Props> = (className) => {
                     To apply new style, open the <br />
                     <TaskSymbol name="styles" />
                     <b>Styles Panel</b> and click <TaskSymbol name="add" />
-                    <b>Add Class</b>.{' '}
+                    <b>Manage Class</b>.{' '}
                 </li>
                 <li>
                     {' '}
