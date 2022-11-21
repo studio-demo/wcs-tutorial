@@ -16,7 +16,7 @@ export const Task10: React.FC<Task10Props> = (className) => {
             <ol start={0} className={styles.desc}>
                 <li>
                     {' '}
-                    WCS is using <b>Git</b> for version control. This means you
+                    Codux is using <b>Git</b> for version control. This means you
                     can manage different versions of your projects through{' '}
                     <b>branches</b>. Let’s switch to one with the lessons
                     solved.{' '}
