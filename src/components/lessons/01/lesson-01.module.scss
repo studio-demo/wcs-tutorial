@@ -17,9 +17,14 @@
         height: $playground-height;
 
         // lesson specific
-        background-image: url('https://static.wixstatic.com/media/68d3a9_12b74bc6f7cd4bcc8dbbe3f3b3c35766~mv2.png');
+        background-image: url('https://static.wixstatic.com/media/32aab9_c87d142d28754b46bb8cdd15a6435806~mv2.png');
         background-size: cover;
         position: relative;
+        background-repeat: repeat;
+        background-origin: padding-box;
+        background-clip: border-box;
+        background-position: 50% 50%;
+        background-attachment: scroll;
     }
 }
 

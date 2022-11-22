@@ -16,8 +16,8 @@ export const Task01: React.FC<Task01Props> = (className) => {
             <ol start={0} className={styles.desc}>
                 <li>
                     In this tutorial, you'll learn how you can view and visually
-                    edit <b>React</b> components using{' '}
-                    <b>Wix Component Studio</b>.
+                    edit <b>React</b> components <br/>with{' '}
+                    <b>Codux</b>.
                 </li>
                 <li>
                     Switch to <TaskSymbol name="preview" /> <b>Preview Mode</b>{' '}
